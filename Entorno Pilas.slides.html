@@ -4712,10 +4712,12 @@ AAAATGF2ZjU2LjI1LjEwMQ==
     
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre>%%bash
+ipython nbconvert --to slides <span class="s2">&quot;Entorno Pilas.ipynb&quot;</span>
+
 git add -u
 git commit -m <span class="s2">&quot;Update </span><span class="k">$(</span>date<span class="k">)</span><span class="s2">&quot;</span>
 git fetch
@@ -4733,8 +4735,9 @@ git push origin master
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[master 95300d3] Update Thu May 14 12:42:33 ART 2015
- 1 file changed, 28 insertions(+), 15 deletions(-)
+<pre>[master 15d7965] Update Thu May 14 12:51:36 ART 2015
+ 2 files changed, 4833 insertions(+), 10837 deletions(-)
+ rewrite Entorno Pilas.slides.html (75%)
 Current branch master is up to date.
 </pre>
 </div>
@@ -4742,8 +4745,13 @@ Current branch master is up to date.
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stderr output_text">
-<pre>To git@github.com:UNPSJB/pilas-secundarias.git
-   02dc67e..95300d3  master -&gt; master
+<pre>[NbConvertApp] Using existing profile dir: u&apos;/Users/nahuel/.ipython/profile_default&apos;
+[NbConvertApp] Converting notebook Entorno Pilas.ipynb to slides
+[NbConvertApp] Support files will be in Entorno Pilas_files/
+[NbConvertApp] Loaded template slides_reveal.tpl
+[NbConvertApp] Writing 543129 bytes to Entorno Pilas.slides.html
+To git@github.com:UNPSJB/pilas-secundarias.git
+   95300d3..15d7965  master -&gt; master
 </pre>
 </div>
 </div>
@@ -4753,6 +4761,37 @@ Current branch master is up to date.
 
 </div>
     </div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span class="o">!</span>git commit -m <span class="s2">&quot;Agregar filminas&quot;</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>On branch master
+Changes not staged for commit:
+	<span class="ansired">modified:   Entorno Pilas.ipynb</span>
+
+no changes added to commit
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
